@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "http://your_laravel_server/api/";
+    private static final String BASE_URL = "http://127.0.0.1:8000/api/";
 
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {
